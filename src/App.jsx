@@ -8,15 +8,11 @@ function App() {
 
 
   return (
-    <>
+    <main>
    
    <QrCode />
   
-   
-          
-     
-        
-    </>
+    </main>
   )
 }
 
