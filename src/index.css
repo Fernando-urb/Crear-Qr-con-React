@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .qr {
   height: auto;
@@ -6,3 +7,9 @@
   max-width: 150px;
   width: 100%;
 }
+body{
+  font-family: "Outfit", sans-serif;
+ font-size: 15px;
+  
+}
+

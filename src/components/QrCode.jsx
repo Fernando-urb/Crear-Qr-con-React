@@ -4,7 +4,7 @@ import LogoHithub from "../img/Github.svg";
 export const QrCode = () => {
   return (
     <>
-      <div className=" bg-amber-50  rounded-2xl h-auto  w-auto p-2 shadow-sm  flex flex-col gap-4 text-center ">
+      <div className=" bg-amber-50  rounded-2xl h-auto lg:w-[200px]  sm:w-[400px]   p-2 shadow-sm  flex flex-col gap-4 text-center ">
 
         <div className="flex flex-col text-center m-auto  p-8  bg-[#3784dd] rounded-1xl rounded-sm">
           <QRCode
@@ -17,7 +17,7 @@ export const QrCode = () => {
         </div>
 
         <div className="flex flex-col gap-3  text-center  qr">
-          <h1 className="text-[0.8rem]  flex justify-center gap-3 ">
+          <h1 className="  flex justify-center gap-3 ">
             Mi Repositorio de Git-Hub{" "}
             <img src={LogoHithub} alt="" className=" size-7" />
           </h1>
